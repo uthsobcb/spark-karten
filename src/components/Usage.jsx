@@ -7,7 +7,7 @@ const Usage = () => {
             <h1 className='text-4xl font-bold mb-4 text-center'>Why Use Flash Cards??</h1>
             <span className='text-xl mb-6 text-center'> or you can say Best Way to utilize FlashCards</span>
             <span className='text-xl mb-6 text-center bg-green-400 text-black border border-none rounded-lg p-4'> This section for Newcommers who don't know What the heck is FlashCards or Why Spark Karten</span>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 flex-col lg:flex-row'>
                 <div class="block max-w-sm p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
 
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white"> Guide of Using Flashcard by Sheridan Collage</h5>
