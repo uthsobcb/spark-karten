@@ -25,9 +25,10 @@ const Dashboard = () => {
                     <div className='text-white text-3xl m-10'>
                         <h1>Hello <span className='underline text-yellow-400'>{user.displayName},</span></h1>
                     </div>
-                    <div class="block max-w-full p-6  border rounded-lg shadow  bg-gray-800 border-gray-700 hover:bg-gray-700">
-                        <p class="font-normal text-gray-700 dark:text-gray-400">To Create Flashcard go to/click to Create Flash Cards.</p>
-                        <p class="font-normal text-gray-700 dark:text-gray-400">To Revise created Flashcards go to/click to View Cards.</p>
+                    <div class="block max-w-full p-6  border rounded-lg shadow bg-gray-800 border-gray-700 hover:bg-gray-700">
+                        <p class="font-bold text-lg text-gray-400">To Continue you need to create cards first!!</p>
+                        <p class="font-normal text-gray-400">To Create Flashcard go to/click to Create Flash Cards.</p>
+                        <p class="font-normal text-gray-400">To Revise created Flashcards go to/click to View Cards.</p>
                     </div>
 
                     <div className='flex flex-col lg:flex-row gap-4 m-8'>
