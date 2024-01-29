@@ -5,11 +5,12 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Authenticate from './pages/Authenticate';
 import CardView from './components/CardView';
-import CardCreate from './components/CardCreate';
+import CardCreate from './components/CardCreate'
+import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <Header></Header>
+      <Header />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/dashboard' element={<Dashboard />} />
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/create' element={<CardCreate />} />
         <Route path='/auth' element={<Authenticate />} />
       </Routes>
+      <Footer />
     </>
   );
 }

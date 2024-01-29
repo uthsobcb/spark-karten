@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../firebase';
+import Github from '../assets/github.svg';
 
 const Header = () => {
     const [user, setUser] = useState({});
@@ -21,7 +22,7 @@ const Header = () => {
     return (
         <>
             <nav className='flex justify-center sticky'>
-                <div className='border text-white bg-[#1f2937] bg-opacity-75 flex justify-between w-[75%] self-center p-3 rounded-xl'>
+                <div className='border text-white bg-[#1f2937] bg-opacity-75 flex justify-between w-full lg:w-[75%] self-center p-3 rounded-xl'>
                     <a href="/"><span className='text-xl font-bold'>📒 Spark Karten</span></a>
                     <div>
                         <a href="/dashboard" className='p-2 text-white'>Dashboard</a>

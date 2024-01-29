@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from '../assets/cardshow.gif';
+import Github from '../assets/github.svg';
 import Manual from '../components/Manual';
+import Usage from '../components/Usage';
 const Home = () => {
     return (
         <>
-            <div className='text-white flex justify-center items-center'>
-                <div className='mt-10'>
+            <div className='text-white flex flex-col lg:flex-row justify-center items-center'>
+                <div className='mt-10 p-2'>
                     <h1 className='text-5xl text-yellow-300 mb-8 tracking-wide'>Spark Karten</h1>
                     <p className='text-xl my-3'>Unlock Brilliance: Flashcards Redefined for Effortless Learning!</p>
                     <p className='my-3 mb-6'><span className='text-yellow-200'>"Spark" </span> suggests a spark of knowledge, <span className='text-yellow-200'> "Karten"</span> means Card in German. <br /> Together it says spark of knowledge through cards! .</p>
@@ -16,6 +18,7 @@ const Home = () => {
                 </div>
             </div>
             <Manual></Manual>
+            <Usage></Usage>
 
         </>
     );

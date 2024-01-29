@@ -27,6 +27,7 @@ const Manual = () => {
                     title="Revise"
                     description="Revise your cards just like any other."
                 />
+
             </div>
         </div>
     );

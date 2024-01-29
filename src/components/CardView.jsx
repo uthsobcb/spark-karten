@@ -42,7 +42,7 @@ const CardView = () => {
             {cards.map((item) => (
                 <div
                     key={item.id}
-                    className={`flex-shrink-0 w-[300px] h-[300px] overflow-hidden transform bg-white border border-gray-200 rounded-lg shadow-md cursor-pointer hover:shadow-lg transition duration-300 ease-in-out ${flippedCardId === item.id ? 'animate-flip' : ''}`}
+                    className={`flex-shrink-0 w-[300px] h-[300px] overflow-hidden transform bg-white border border-gray-200 rounded-lg shadow-md cursor-pointer transition duration-300 ease-in-out ${flippedCardId === item.id ? 'animate-flip' : ''}`}
                     onClick={() => handleFlip(item.id)}
                 >
                     <div className="flex h-full w-full items-center justify-center p-4">
